@@ -1,0 +1,95 @@
+* {
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    scroll-behavior: smooth;
+
+}
+
+button {
+    outline: 0;
+    border: 0;
+    transition: all 0.3s ease-out;
+    background-color: none;
+    background: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.01);
+}
+
+button:disabled {
+    background-color: #bdbdbd;
+    cursor: default;
+    color: #fff;
+    border: 0;
+}
+
+button:disabled:hover {
+    transform: scale(1);
+}
+
+input, textarea {
+    background: none;
+    border: 0;
+    outline: 0;
+}
+
+input::placeholder {
+    color: #000000;
+}
+
+input:read-only {
+    background-color: lightgray;
+    cursor: default;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #000000;
+}
+
+* {
+    scrollbar-color: #f1f1f1 #39aea9;
+}
+
+::-webkit-scrollbar {
+    background: #39aea9;
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+    border-radius: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cabin', sans-serif;
+    color: #000000;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
